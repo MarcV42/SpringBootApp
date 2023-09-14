@@ -51,6 +51,7 @@ public class MyController {
 
 
     //http://localhost:8080/api/{{12345}}
+    // oder http://localhost:8080/api/23424234
     @GetMapping("/{id}")
     public String getHelloPathVariable(@PathVariable String id) {
         System.out.println("PathVariable: " + id);
